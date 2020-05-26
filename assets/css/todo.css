@@ -1,0 +1,78 @@
+
+body{
+    font-family: Roboto;
+    background-color: rgb(12, 12, 51);
+}
+h1{
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 20px;
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 24px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    font-size: 18px;
+    background-color: #f7f7f7;
+    width: 100%;
+    padding: 13px 13px 13px 20px;
+    box-sizing: border-box; /* includes padding and border but not margin */
+    color: #2980b9;
+    border: 3px solid rgba(0, 0, 0, 0);
+}
+
+input:focus{
+    background-color: #fff;
+}
+
+li{
+    background-color: #fff;
+    height: 40px;
+    line-height: 40px;
+    opacity: .75;
+}
+li:nth-child(2n){
+    background-color: #f7f7f7;
+}
+
+#container{
+    width: 360px;
+    margin: 100px auto;
+    box-shadow: 0 0 13px rgba(0, 0, 0, 0.1);
+    background-color: #f7f7f7;
+}
+.done{
+    color: grey;
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.fa-trash{
+    color: white;
+}
+
+span{
+    height: 40px;
+    width: 0px;
+    margin-right: 20px;
+    text-align: center;
+    background-color:red;
+    display: inline-block;
+    transition: 0.2s;
+    opacity: 0;
+}
+
+li:hover span{
+    width:40px;
+    opacity: 1;
+}
+.fa-plus{
+    float: right;
+}
